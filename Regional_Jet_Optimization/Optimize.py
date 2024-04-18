@@ -31,7 +31,7 @@ def main():
     output = problem.objective()
     
     # Uncomment to view contours of the design space
-    #variable_sweep(problem)
+    # variable_sweep(problem)
     
     # Uncomment for the first optimization
     output = scipy_setup.SciPy_Solve(problem,solver='SLSQP')
